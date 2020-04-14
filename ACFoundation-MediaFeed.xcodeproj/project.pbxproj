@@ -17,6 +17,7 @@
 		8DC1FA5A2444C06500AAC334 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC1FA592444C06500AAC334 /* HeaderView.swift */; };
 		8DC1FA5C2444C40200AAC334 /* MediaObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC1FA5B2444C40200AAC334 /* MediaObject.swift */; };
 		8DC1FA5E2444EB5900AAC334 /* URL+VideoPreviewThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC1FA5D2444EB5900AAC334 /* URL+VideoPreviewThumbnail.swift */; };
+		8DC1FA612446191900AAC334 /* MediaFeedDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DC1FA5F2446191900AAC334 /* MediaFeedDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8DC1FA592444C06500AAC334 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		8DC1FA5B2444C40200AAC334 /* MediaObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaObject.swift; sourceTree = "<group>"; };
 		8DC1FA5D2444EB5900AAC334 /* URL+VideoPreviewThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+VideoPreviewThumbnail.swift"; sourceTree = "<group>"; };
+		8DC1FA602446191900AAC334 /* MediaFeedDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediaFeedDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				8DC1FA592444C06500AAC334 /* HeaderView.swift */,
 				8DC1FA5B2444C40200AAC334 /* MediaObject.swift */,
 				8DC1FA5D2444EB5900AAC334 /* URL+VideoPreviewThumbnail.swift */,
+				8DC1FA5F2446191900AAC334 /* MediaFeedDataModel.xcdatamodeld */,
 			);
 			path = "ACFoundation-MediaFeed";
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				8DC1FA482444B9A400AAC334 /* MediaFeedViewController.swift in Sources */,
 				8DC1FA582444C04500AAC334 /* MediaCell.swift in Sources */,
 				8DC1FA442444B9A400AAC334 /* AppDelegate.swift in Sources */,
+				8DC1FA612446191900AAC334 /* MediaFeedDataModel.xcdatamodeld in Sources */,
 				8DC1FA462444B9A400AAC334 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +358,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DC1FA5F2446191900AAC334 /* MediaFeedDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DC1FA602446191900AAC334 /* MediaFeedDataModel.xcdatamodel */,
+			);
+			currentVersion = 8DC1FA602446191900AAC334 /* MediaFeedDataModel.xcdatamodel */;
+			path = MediaFeedDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8DC1FA382444B9A400AAC334 /* Project object */;
 }
